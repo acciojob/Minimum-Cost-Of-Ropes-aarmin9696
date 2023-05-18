@@ -1,5 +1,6 @@
 function calculateMinCost() {
   //your code here
+	let lengths = getElementById("rope-lengths")
 	 const ropes = lengths.split(",").map(Number);
 
   ropes.sort((a, b) => a - b); // Sort the ropes in ascending order
